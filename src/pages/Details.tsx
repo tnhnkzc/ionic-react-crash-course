@@ -10,14 +10,7 @@ const Details: React.FC = () => {
           <IonTitle>Details page</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse='condense'>
-          <IonToolbar>
-            <IonTitle size='large'>Details page</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer />
-      </IonContent>
+      <IonContent fullscreen>hello from details</IonContent>
     </IonPage>
   );
 };
